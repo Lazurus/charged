@@ -1,0 +1,9 @@
+Building Charged
+
+See doc/readme-qt.rst for instructions on building Charged-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Charged.
+
+See doc/build-*.txt for instructions on building chargedd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Charged.
