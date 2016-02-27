@@ -41,6 +41,7 @@ script: |
   cd ..
   #
   cd charged
+  chmod 755 src/leveldb/build_detect_platform
   mkdir -p $OUTDIR/src
   git archive HEAD | tar -x -C $OUTDIR/src
   cp $OUTDIR/src/doc/README.md $OUTDIR
